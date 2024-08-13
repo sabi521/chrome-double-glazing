@@ -1,20 +1,9 @@
-import Image from "next/image";
-
 export default function Home() {
   return (
-    <main className="max-w-[1400px] mx-auto bg-black m-0 p-0">
-      <div>
-        <h1 className="bg-black text-white text-4xl text-center uppercase py-4">
-          Website coming soon!
-        </h1>
-        <Image
-          className="relative w-full h-screen object-contain"
-          src="./next.svg"
-          alt="image"
-          width={180}
-          height={37}
-          priority
-        />
+    <main className="h-screen bg-[#17153b]">
+      <img src="./images/logo.png" alt="" />
+      <div className="flex justify-center items-center h-[70vh]">
+        <h1 className="text-white text-center text-[80px]">Coming Soon!</h1>
       </div>
     </main>
   );
